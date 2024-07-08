@@ -1,0 +1,26 @@
+.header{
+    background-color: skyblue;
+    padding: 10px;
+    height: 50px;
+    width: 1500px;
+}
+.header h3{
+    font-size: 20px;
+
+}
+.header ul{
+    list-style:none;
+    text-align: right;
+   
+    font-size:15px;
+
+}
+.header li{
+    display: inline-block;
+    text-align: right;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
