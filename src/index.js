@@ -1,18 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './components/navbar';
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import Navbar from './components/navbar';
 import Register from './components/Register';
+import Home from './components/home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<div>
+  <div>
     <Router>
-        <Navbar/>
-        <Routes>
-            <Route path="/about" element={<h1>About</h1>}/>
-            <Route path="/register" element={<Register/>}/>
-        </Routes>
+      <Navbar/>
+      <h1>Web App</h1>
+      <Home/>
+      <Routes>
+        <Route path="/register" element={<Register/>}/>
+        <Route path="/login" element={<h1>Login</h1>}/>
+        <Route path="/logout" element={<h1>Logout</h1>}/>
+      </Routes>
     </Router>
-</div>
+  </div>
 );

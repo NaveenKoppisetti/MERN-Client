@@ -1,0 +1,33 @@
+under cypress we will define our file name as ex.cy.js
+
+Commands
+----------
+
+cy.click() ->click function
+cy.get() -> it use to get an styling component (css)
+cy.type()->used to enter input into a field
+
+Testing Components
+======================
+-------Method-----
+describe() ->describe the group of test cases
+it()->describe the test cases
+cy.log()->log->to the cypress console
+
+cypress 
+=======
+ GUI ->to run ->npx cypress head
+ CLI ->to run ->nox express run
+
+ Hook functions
+ ===============
+
+ before() -> To run a test before all test cases
+ beforeEach() ->To run a test before running Every test cases
+ after() ->to run after all the test cases
+ afterEach() ->run a test after runnung all test cases
+
+
+Assertions
+==============
+->functions in cypress which is used to validate a behaviour of functionality
